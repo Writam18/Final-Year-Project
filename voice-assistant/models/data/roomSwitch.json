@@ -1,0 +1,70 @@
+{
+"deviceMapping": [
+        {"room": "bedroom",
+         "value": 0,
+        "devices": ["main light","night light","small light","fan","charging port","ac","radiator","tv","lights"],
+        "values": [1,2,4,8,16,32,64,128,7]
+        },
+        {"room": "kitchen",
+         "value": 1,
+        "devices": ["light","microwave","filter","coffee machine","charging port","refrigerator","chimney","burner"],
+        "values": [1,2,4,8,16,32,64,128]
+        },
+        {"room": "washroom",
+         "value": 2,
+        "devices": ["light","NA","NA","NA","charging port","NA","geyser","NA"],
+        "values": [1,2,4,8,16,32,64,128]
+        },
+        {"room": "dining room",
+         "value": 3,
+        "devices": ["main light","router","small light","fan","charging port","NA","radiator","tv","lights"],
+        "values": [1,2,4,8,16,32,64,128,5]
+        },
+        {"room": "living room",
+         "value": 4,
+        "devices": ["light","corner fan","table fan","stand fan","center fan","fireplace","ac","tv","fans"],
+        "values": [1,2,4,8,16,32,64,128]
+        },
+        {"room": "garage",
+         "value": 5,
+        "devices": ["light","router","NA","NA","left charging port","right charging port","NA","NA","charging port"],
+        "values": [1,2,4,8,16,32,64,128,48]
+        },
+        {"room": "exterior",
+         "value": 6,
+        "devices": ["light","NA","NA","NA","charging port","NA","NA","NA"],
+        "values": [1,2,4,8,16,32,64,128]
+        },
+        {"room": "hallway",
+         "value": 7,
+        "devices": ["light","NA","NA","fan","charging port","washing machine","NA","NA"],
+        "values": [1,2,4,8,16,32,64,128]
+        },
+        {"room": "basement",
+         "value": 8,
+        "devices": ["light","NA","NA","fan","charging port","NA","NA","NA"],
+        "values": [1,2,4,8,16,32,64,128]
+        },
+        {"room": "office",
+         "value": 9,
+        "devices": ["light","router","ac","fan","left charging port","right charging port","radiator","desktop","charging port"],
+        "values": [1,2,4,8,16,32,64,128,48]
+        },
+        {"room": "guest room",
+         "value": 10,
+        "devices": ["light","router","ac","fan","left charging port","right charging port","NA","NA","charging port"],
+        "values": [1,2,4,8,16,32,64,128,48]
+        }    
+   ],
+"essentials": {
+        "device": ["refrigerator","washing machine","chimney","geyser","microwave","filter","fireplace","desktop","burner","coffee machine"],         
+        "deviceValue": [32,32,64,64,2,4,32,128,128,8],
+        "roomValue": [1,7,1,2,1,1,4,9,1,1],
+        "room": ["kitchen", "hallway", "kitchen", "washroom", "kitchen", "kitchen", "living room", "office", "kitchen", "kitchen"]
+    },
+"positiveResponse":["turning on the","activating the","switching on the", "turning up the"],
+"negativeResponse":["turning off the","deactivating the","switching off the", "turning down the"],
+"noofDevices":[8],
+"noofRooms":[10]
+    
+}

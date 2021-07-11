@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper_r3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".rooms.Room3">
+
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back_icon" />
+
+    <Switch
+        android:id="@+id/s2r3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:padding="15dp"
+        android:switchPadding="35dp"
+        android:text="Light"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="20sp"
+        android:thumb="@drawable/thumb2"
+        android:track="@drawable/track"
+        app:layout_constraintStart_toStartOf="@+id/s1r3"
+        app:layout_constraintTop_toBottomOf="@+id/s1r3" />
+
+    <Switch
+        android:id="@+id/s3r3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="15dp"
+        android:switchPadding="15dp"
+        android:text="Air Conditioner"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="20sp"
+        android:thumb="@drawable/thumb3"
+        android:track="@drawable/track"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s2r3" />
+
+    <Switch
+        android:id="@+id/s4r3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+
+        android:padding="15dp"
+        android:switchPadding="25dp"
+        android:text="Charging port"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="20sp"
+        android:thumb="@drawable/thumb4"
+        android:track="@drawable/track"
+        app:layout_constraintStart_toStartOf="@+id/s3r3"
+        app:layout_constraintTop_toBottomOf="@+id/s3r3" />
+
+    <Switch
+        android:id="@+id/s5r3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="4dp"
+        android:padding="15dp"
+
+        android:switchPadding="45dp"
+        android:text="Fan"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="20sp"
+        android:thumb="@drawable/thumb5"
+
+        android:track="@drawable/track"
+        app:layout_constraintStart_toStartOf="@+id/s4r3"
+        app:layout_constraintTop_toBottomOf="@+id/s4r3" />
+
+    <Switch
+        android:id="@+id/s1r3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="156dp"
+        android:padding="15dp"
+        android:switchPadding="15dp"
+        android:text="Television"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="20sp"
+        android:thumb="@drawable/thumb1"
+        android:track="@drawable/track"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

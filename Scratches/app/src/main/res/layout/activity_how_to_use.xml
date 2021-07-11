@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".How_to_use"
+    android:orientation="vertical"
+    android:background="@drawable/bg_devices2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/bungee"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:text="HOW TO USE"
+            android:padding="10dp"
+            android:paddingTop="10dp">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="398dp"
+            android:fontFamily="@font/antic"
+            android:padding="5dp"
+            android:text="Login using the email id and password used for registration. Navigation menu has options.
+Choose whatever menu you want to.You would be redirected to that menu automatically.
+In devices you can check the devices present in your house.
+In Rooms there are different rooms available Choose whatever romm you like to.Toggle the switches for
+switching on or off the appliances. "
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="20sp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>

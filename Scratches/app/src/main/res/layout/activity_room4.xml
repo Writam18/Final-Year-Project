@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper_r4"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".rooms.Room4"
+    android:layout_marginLeft="5dp">
+
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back_icon" />
+
+    <Switch
+        android:id="@+id/s2r4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:padding="15dp"
+        android:switchPadding="35dp"
+        android:text="Light"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:thumb="@drawable/thumb2"
+        android:track="@drawable/track"
+        app:layout_constraintStart_toStartOf="@+id/s1r4"
+        app:layout_constraintTop_toBottomOf="@+id/s1r4" />
+
+    <Switch
+        android:id="@+id/s3r4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="15dp"
+        android:switchPadding="20dp"
+        android:text=" Exhaust fan"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:thumb="@drawable/thumb3"
+        android:track="@drawable/track"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s2r4" />
+
+    <Switch
+        android:id="@+id/s4r4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:switchPadding="15dp"
+        android:text="Charging port"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:thumb="@drawable/thumb4"
+        android:track="@drawable/track"
+        app:layout_constraintStart_toStartOf="@+id/s3r4"
+        app:layout_constraintTop_toBottomOf="@+id/s3r4" />
+
+    <Switch
+        android:id="@+id/s5r4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:padding="15dp"
+        android:switchPadding="45dp"
+        android:text="Heater"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:thumb="@drawable/thumb5"
+
+        android:track="@drawable/track"
+        app:layout_constraintStart_toStartOf="@+id/s4r4"
+        app:layout_constraintTop_toBottomOf="@+id/s4r4" />
+
+    <Switch
+        android:id="@+id/s1r4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="156dp"
+        android:padding="15dp"
+        android:switchPadding="15dp"
+        android:text="Water purifier"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:thumb="@drawable/thumb1"
+        android:track="@drawable/track"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

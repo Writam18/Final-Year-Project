@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+        <group android:checkableBehavior="single"
+            tools:ignore="ExtraText">
+
+
+            <item
+                android:id="@+id/nav_devices"
+                android:title="Devices"
+                android:icon="@drawable/ic_devices"/>
+            <item
+                android:id="@+id/nav_rooms"
+                android:title="Rooms"
+                android:icon="@drawable/ic_room"/>
+            <item
+                android:id="@+id/profile_view"
+                android:title="Profile"
+                android:icon="@drawable/profileimage"/>
+
+        </group>
+
+
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_use"
+                android:icon="@drawable/ic_use"
+                android:title="How to Use" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

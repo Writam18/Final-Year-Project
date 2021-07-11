@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "589048264370",
+    "firebase_url": "https://scratches-e6895.firebaseio.com",
+    "project_id": "scratches-e6895",
+    "storage_bucket": "scratches-e6895.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589048264370:android:ab006ec0256395dea03bab",
+        "android_client_info": {
+          "package_name": "com.example.scratches"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589048264370-37l3ri3e64jtof2bhdqfnhu4dkke5jp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG2u6t-GSixtOO3aeaufguQz5WwPCydRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589048264370-37l3ri3e64jtof2bhdqfnhu4dkke5jp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

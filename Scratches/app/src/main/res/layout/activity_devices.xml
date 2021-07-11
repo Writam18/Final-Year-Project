@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#917070"
+    tools:context=".activity_room">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_pressed_devices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:src="@drawable/ic_back_icon" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Devices"
+
+            android:textAllCaps="true"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bg_for_tv">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/tv_n" />
+
+                <TextView
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="Television"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textSize="20sp"
+
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bg_for_tv1">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentLeft="true"
+
+                    android:src="@drawable/light_n" />
+
+                <TextView
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#00000000"
+                    android:padding="15dp"
+                    android:paddingRight="15dp"
+                    android:text="Lights"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bg_for_tv">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentRight="true"
+
+                    android:src="@drawable/ac_n" />
+
+                <TextView
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_alignRight="@+id/img3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#00000000"
+                    android:padding="15dp"
+                    android:paddingLeft="5dp"
+                    android:text="Air Conditioner"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bg_for_tv1">
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentLeft="true"
+
+                    android:src="@drawable/fan_n" />
+
+                <TextView
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#00000000"
+                    android:padding="15dp"
+                    android:paddingRight="15dp"
+                    android:text="Fans"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bg_for_tv">
+
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentRight="true"
+
+                    android:src="@drawable/charger_n" />
+
+                <TextView
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_alignRight="@+id/img5"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#00000000"
+                    android:padding="15dp"
+                    android:paddingLeft="5dp"
+                    android:text="Charging Port"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bg_for_tv1">
+
+                <ImageView
+                    android:id="@+id/img6"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentLeft="true"
+
+                    android:src="@drawable/water_purifier_n" />
+
+                <TextView
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#00000000"
+                    android:padding="1dp"
+                    android:paddingRight="15dp"
+                    android:text="Water Purifier"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
